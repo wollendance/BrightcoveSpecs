@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 	s.static_framework = true
 
 	s.dependency 'Brightcove-Player-Core', '6.8.7'
-	s.dependency 'google-cast-sdk', '4.5.0'
+	#s.dependency 'google-cast-sdk', '4.5.0'
+	s.dependency 'google-cast-sdk-no-bluetooth', '4.5.0'
 	
 	s.vendored_framework   = "ios/BrightcoveGoogleCast.framework"
 
